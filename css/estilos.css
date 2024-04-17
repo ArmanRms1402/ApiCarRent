@@ -1,0 +1,41 @@
+.fondo{
+    background-color: goldenrod;
+}
+
+h1{
+    color: white;
+    font-weight: bold;
+}
+
+.barra-lateral{
+    background-color: whitesmoke;
+}
+
+a{
+    text-decoration: none;
+}
+
+.formulario-pequeño{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.formulario-mediano{
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.formulario-grande{
+    width: 700px;
+    height: 700px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.fondo-formulario{
+    background-color: azure;
+}
