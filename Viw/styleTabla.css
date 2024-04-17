@@ -1,0 +1,48 @@
+body {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(to right, white, #6047EB);
+}
+
+.animated-main {
+    animation: slide-up 1s ease-in-out;
+    /* Añadir animación */
+}
+
+@keyframes slide-up {
+    from {
+        transform: translateY(50px);
+        /* Inicio de la animación, puede ajustarse según sea necesario */
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        /* Fin de la animación */
+        opacity: 1;
+    }
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    align-content: center;
+    margin: auto;
+}
+
+th,
+td {
+    border: 3px solid #dddddd;
+    text-align: left;
+    padding: 10px;
+}
+
+th {
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+img {
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
